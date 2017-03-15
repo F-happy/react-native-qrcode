@@ -1,0 +1,28 @@
+{
+  "name": "react-native-qrcode",
+  "version": "1.0.0",
+  "description": "基于 React Native Camera 实现二维码扫描",
+  "main": "qr_code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F-happy/react-native-qrcode.git"
+  },
+  "keywords": [
+    "qrcode",
+    "react-native"
+  ],
+  "author": "jonnyf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F-happy/react-native-qrcode/issues"
+  },
+  "homepage": "https://github.com/F-happy/react-native-qrcode#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-native": "^0.42.0",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git"
+  }
+}
