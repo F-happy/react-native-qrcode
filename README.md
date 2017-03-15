@@ -60,7 +60,7 @@ constructor(props) {
 接下来就是当 Camera 扫描出结果后的处理了，这里通过 ```onBarCodeRead``` 函数来处理扫描结果：
 ```javascript
 onBarCodeRead = (result) => {
-	 const {navigator, route} = this.props;
+    const {navigator, route} = this.props;
     const {qrCodeRead} = route;
     const {data} = result;
     qrCodeRead && qrCodeRead(data);
